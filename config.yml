@@ -6,7 +6,7 @@ feeds:
    - url: "https://www.svtplay.se/bonusfamiljen/rss.xml"
      binary: "svtplay-dl"
      filters: 
-     - "syntolkat"
+  #   - "syntolkat"
      options: " -f -S -o '/home/joakim/plex/serier/Bonusfamiljen'"
    - url: "https://www.svtplay.se/jordskott/rss.xml"
      binary: "svtplay-dl"
@@ -62,6 +62,9 @@ feeds:
    - url: "https://www.svtplay.se/grotesco/rss.xml"
      binary: "svtplay-dl"
      options: " -f -S -o '/home/joakim/plex/serier/Grotesco'"
+   - url: "https://www.svtplay.se/mr-robot/rss.xml"
+     binary: "svtplay-dl"
+     options: " -f -S -o '/home/joakim/plex/serier/Mr-Robot'"
 
 
 
