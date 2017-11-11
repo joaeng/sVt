@@ -64,6 +64,8 @@ feeds:
    - url: "https://www.tv4play.se/rss_feeds?nodes=enkelstoten"
      binary: "svtplay-dl"
      options: " -f -S -o '/home/joakim/plex/serier/Enkelstoten'"
-
+   - url: "https://www.svtplay.se/kvarteret-skatan/rss.xml"
+     binary: "svtplay-dl"
+     options: " -f -S -o '/home/joakim/plex/serier/Kvarteret-Skatan'"
 
 
