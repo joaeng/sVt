@@ -1,12 +1,8 @@
 feeds:
-#  - url: "http://www.svtplay.se/andys-dinosaurieaventyr/rss.xml"
-#    binary: "svtplay-dl" options: " -f -S -o '/mnt/christoffer/andys.dinosaurieaventyr'" - url: "http://www.svtplay.se/andys-forhistoriska-aventyr/rss.xml" binary: "svtplay-dl" options: " -f -S -o 
-#   '/mnt/christoffer/andys.fornhistoriska.aventyr'" - url: "http://www.tv4play.se/rss_feeds?nodes=mord-i-isande-kyla"
-#     binary: "svtplay-dl" options: "-f -S -o 'downloads/'" - url: "http://www.svtplay.se/den-fordomde/rss.xml" binary: "svtplay-dl" filters: - "syntolkat" options: " -f -S -o '/mnt/serier/Den.fordomde'"
    - url: "https://www.svtplay.se/bonusfamiljen/rss.xml"
      binary: "svtplay-dl"
      filters: 
-  #   - "syntolkat"
+     - "syntolkat"
      options: " -f -S -o '/home/joakim/plex/serier/Bonusfamiljen'"
    - url: "https://www.svtplay.se/jordskott/rss.xml"
      binary: "svtplay-dl"
