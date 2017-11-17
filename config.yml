@@ -61,11 +61,11 @@ feeds:
    - url: "https://www.svtplay.se/mr-robot/rss.xml"
      binary: "svtplay-dl"
      options: " -f -S -o '/home/joakim/plex/serier/Mr-Robot'"
-   - url: "https://www.tv4play.se/rss_feeds?nodes=enkelstoten"
+   - url: "https://www.tv4play.se/rss_feeds?nodes=enkelst%C3%B6ten"
      binary: "svtplay-dl"
      options: " -f -S -o '/home/joakim/plex/serier/Enkelstoten'"
-   - url: "https://www.svtplay.se/kvarteret-skatan/rss.xml"
+   - url: "https://www.svtplay.se/monster/rss.xml"
      binary: "svtplay-dl"
-     options: " -f -S -o '/home/joakim/plex/serier/Kvarteret-Skatan'"
+     options: " -f -S -o '/home/joakim/plex/serier/Monster'"
 
 
