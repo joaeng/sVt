@@ -79,4 +79,7 @@ feeds:
    - url: "https://www.svtplay.se/macken/rss.xml"
      binary: "svtplay-dl"
      options: " -f -S -o '/home/joakim/plex/serier/Macken'"
+   - url: "https://www.svtplay.se/forsta-dejten/rss.xml"
+     binary: "svtplay-dl"
+     options: " -f -S -o '/home/joakim/plex/serier/forsta-dejten'"
    
