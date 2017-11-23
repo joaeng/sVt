@@ -82,4 +82,7 @@ feeds:
    - url: "https://www.svtplay.se/forsta-dejten/rss.xml"
      binary: "svtplay-dl"
      options: " -f -S -o '/home/joakim/plex/serier/forsta-dejten'"
-   
+   - url: "https://www.svtplay.se/mia-och-klara/rss.xml"
+     binary: "svtplay-dl"
+     options: " -f -S -o '/home/joakim/plex/serier/Mia-och-Klara'"
+
