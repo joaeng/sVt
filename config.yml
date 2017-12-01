@@ -88,4 +88,7 @@ feeds:
    - url: "https://www.tv4play.se/rss_feeds?nodes=ack-v%C3%A4rmland"
      binary: "svtplay-dl"
      options: " -f -S -o '/home/joakim/plex/serier/Ack-varmland'"
+   - url: "https://www.svtplay.se/julkalendern-jakten-pa-tidskristallen/rss.xml"
+     binary: "svtplay-dl"
+     options: " -f -S -o '/home/joakim/plex/christoffer/Julkalendern'"
 
