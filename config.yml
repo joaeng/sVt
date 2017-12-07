@@ -91,4 +91,7 @@ feeds:
    - url: "https://www.svtplay.se/julkalendern-jakten-pa-tidskristallen/rss.xml"
      binary: "svtplay-dl"
      options: " -f -S -o '/home/joakim/plex/christoffer/Julkalendern'"
+   - url: "https://www.svtplay.se/kottets-lustar/rss.xml"
+     binary: "svtplay-dl"
+     options: " -f -S -o '/home/joakim/plex/serier/kottets-lustar'"
 
