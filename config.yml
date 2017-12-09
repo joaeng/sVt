@@ -94,4 +94,7 @@ feeds:
    - url: "https://www.svtplay.se/kottets-lustar/rss.xml"
      binary: "svtplay-dl"
      options: " -f -S -o '/home/joakim/plex/serier/kottets-lustar'"
+   - url: "https://www.tv4play.se/rss_feeds?nodes=jul-med-ernst"
+     binary: "svtplay-dl"
+     options: " -f -S -o '/home/joakim/plex/serier/jul-med-ernst'"
 
