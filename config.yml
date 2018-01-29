@@ -1,9 +1,9 @@
 feeds:
-#   - url: "https://www.svtplay.se/bonusfamiljen/rss.xml"
-#     binary: "svtplay-dl"
-#     filters: 
-#     - "syntolkat"
-#     options: " -f -S -o '/home/joakim/plex/serier/Bonusfamiljen'"
+   - url: "https://www.svtplay.se/bonusfamiljen/rss.xml"
+     binary: "svtplay-dl"
+   #  filters: 
+   #  - "syntolkat"
+     options: " -f -S -o '/home/joakim/plex/serier/Bonusfamiljen'"
    - url: "https://www.svtplay.se/jordskott/rss.xml"
      binary: "svtplay-dl"
      options: "-f -S -o '/home/joakim/plex/serier/Jordskott'"
