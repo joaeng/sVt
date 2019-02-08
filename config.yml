@@ -48,3 +48,9 @@ feeds:
      binary: "svtplay-dl"
      options: " -f -S -o '/home/joakim/plex/serier/Onda\ aningar'"
 
+   - url: "https://www.svtplay.se/kommissarie-bancroft/rss.xml"
+     binary: "svtplay-dl"
+     options: " -f -S -o '/home/joakim/plex/serier/Kommisarie\ Bancroft'"
+
+
+
