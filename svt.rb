@@ -1,4 +1,4 @@
-
+#!/usr/bin/ruby
 require 'digest'
 require 'rss'
 require 'time'
@@ -9,7 +9,7 @@ Dir.mkdir('downloads') unless File.exists?('downloads')
 Dir.mkdir('log') unless File.exists?('log')
 
 # Load YML config file
-CONFIG = YAML.load_file('config.yml')
+CONFIG = YAML.load_file('/home/joakim/sVt/config.yml')
 
 # Correct config.yml?
 if !CONFIG['feeds']
