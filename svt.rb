@@ -1,4 +1,4 @@
-#!/usr/bin/ruby
+7#!/usr/bin/ruby
 require 'digest'
 require 'rss'
 require 'time'
@@ -6,7 +6,7 @@ require 'yaml'
 
 # Create necessary dirs unless they already exists
 Dir.mkdir('downloads') unless File.exists?('downloads')
-Dir.mkdir('log') unless File.exists?('log')
+Dir.mkdir('/home/joakim/sVt/log') unless File.exists?('/home/joakim/sVt/log')
 
 # Load YML config file
 CONFIG = YAML.load_file('/home/joakim/sVt/config.yml')
