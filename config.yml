@@ -1,4 +1,10 @@
 feeds:
+
+
+   - url: "https://www.svtplay.se/bonusfamiljen/rss.xml"
+     binary: "svtplay-dl"
+     options: "-S -o '/home/joakim/plex/serier/Bonusfamiljen'"
+
    - url: "https://www.svtplay.se/var-tid-ar-nu/rss.xml"
      binary: "svtplay-dl"
    #  filters: 
@@ -51,6 +57,9 @@ feeds:
    - url: "https://www.svtplay.se/kommissarie-bancroft/rss.xml"
      binary: "svtplay-dl"
      options: " -f -S -o '/home/joakim/plex/serier/Kommisarie\ Bancroft'"
+   - url: "https://www.svtplay.se/bamse-och-tjuvstaden/rss.xml"
+     binary: "svtplay-dl"
+     options: " -f -S -o '/home/joakim/plex/christoffer/bamse.och.tjuvstaden'"
 
 
 
